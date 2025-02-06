@@ -1,0 +1,92 @@
+/* index.html */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap');
+:root{
+    --font-family: 'Arapey', serif;
+
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    width: 300px;
+    height: 450px;
+    padding: 0.5vw;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.swiper-slide h4{
+    margin-top: 5px;
+    font-size: 1.5rem;
+    color:rgb(3, 22, 1);
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family:var(--font-family);
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* page2 style */
+.left .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+.left .swiper-slide {
+    /* text-align: center;
+    font-size: 18px;
+    background: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.left .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.left .swiper {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left .swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.left .mySwiper2 {
+    height: 80%;
+    width: 100%;
+}
+
+.left .mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.left .mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.left .mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
